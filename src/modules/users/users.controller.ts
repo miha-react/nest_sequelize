@@ -10,6 +10,7 @@ export class UsersController {
 
     @Get('users')
     public async index(@Response() res) {
+        console.log('Someone wants to get users')
         const users = await this.usersService.findAll();
         return res.status(HttpStatus.OK).json(users);
     }

@@ -3,10 +3,11 @@
 import { Sequelize } from 'sequelize-typescript';
 import { databaseConfig } from '../common/index';
 import { User } from '../users/user.entity';
+import { Hommy } from '../hommies/hommy.entity';
 
 export const databaseProvider = {
     provide: 'SequelizeInstance',
-    useFactory: () => {
+    useFactory: async () => {
         let config;
         switch (process.env.NODE_ENV) {
             case 'prod':
@@ -20,8 +21,9 @@ export const databaseProvider = {
         }
 
         const sequelize = new Sequelize(config);
-        sequelize.addModels([User]);
+        sequelize.addModels([User, Hommy]);
         /* await sequelize.sync(); add this if you want to sync model and DB.*/
+        await sequelize.sync();
         return sequelize;
     },
 };

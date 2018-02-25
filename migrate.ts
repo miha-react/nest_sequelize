@@ -5,8 +5,8 @@ require('dotenv').config();
 import * as path from 'path';
 import * as childProcess from 'child_process';
 import * as Promise from 'bluebird';
-import { databaseConfig } from "./src/modules/common/config/database";
-import { Sequelize } from "sequelize-typescript";
+import { databaseConfig } from './src/modules/common/config/database';
+import { Sequelize } from 'sequelize-typescript';
 
 const Umzug = require('umzug');
 const DB_NAME = process.env.DB_NAME;
@@ -39,18 +39,18 @@ const umzug = new Umzug({
             sequelize.constructor, // DataTypes
             function () {
                 throw new Error('Migration tried to use old style "done" callback. Please upgrade to "umzug" and return a promise instead.');
-            }
+            },
         ],
         path: './src/modules/common/migrations',
-        pattern: /\.ts$/
+        pattern: /\.ts$/,
     },
 
-    logging: function () {
+    logging: function() {
         console.log.apply(null, arguments);
-    }
+    },
 });
 
-function logUmzugEvent (eventName) {
+function logUmzugEvent(eventName) {
     return function (name, migration) {
         console.log(`${ name } ${ eventName }`);
     };
@@ -60,7 +60,7 @@ umzug.on('migrated', logUmzugEvent('migrated'));
 umzug.on('reverting', logUmzugEvent('reverting'));
 umzug.on('reverted', logUmzugEvent('reverted'));
 
-function cmdStatus () {
+function cmdStatus() {
     let result: any = {};
 
     return umzug.executed()
@@ -85,7 +85,7 @@ function cmdStatus () {
             const status = {
                 current: current,
                 executed: executed.map(m => m.file),
-                pending: pending.map(m => m.file)
+                pending: pending.map(m => m.file),
             };
 
             console.log(JSON.stringify(status, null, 2));
@@ -94,11 +94,11 @@ function cmdStatus () {
         });
 }
 
-function cmdMigrate () {
+function cmdMigrate() {
     return umzug.up();
 }
 
-function cmdMigrateNext () {
+function cmdMigrateNext() {
     return cmdStatus()
         .then(({ executed, pending }) => {
             if (pending.length === 0) {
@@ -109,11 +109,11 @@ function cmdMigrateNext () {
         });
 }
 
-function cmdReset () {
+function cmdReset() {
     return umzug.down({ to: 0 });
 }
 
-function cmdResetPrev () {
+function cmdResetPrev() {
     return cmdStatus()
         .then(({ executed, pending }) => {
             if (executed.length === 0) {
@@ -124,7 +124,7 @@ function cmdResetPrev () {
         });
 }
 
-function cmdHardReset () {
+function cmdHardReset() {
     return new Promise((resolve, reject) => {
         setImmediate(() => {
             try {

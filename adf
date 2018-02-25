@@ -1,0 +1,281 @@
+[33mcommit 90788162d641751fb88109ab70b4ae5cce80bfb7[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Adrien de Peretti <adrien.deperetti@gmail.com>
+Date:   Fri Oct 20 19:14:57 2017 +0200
+
+    Update package.json
+
+[33mcommit 5b845c06db607ce6b507e642151aa4332cfdee15[m
+Author: Adrien de Peretti <adrien.deperetti@gmail.com>
+Date:   Sun Oct 8 21:04:22 2017 +0200
+
+    small update
+
+[33mcommit 7d6c5316aac711a85dc81646b4cfcb1a03ba4ddc[m
+Author: Adrien de Peretti <adrien.deperetti@gmail.com>
+Date:   Sun Oct 8 20:56:23 2017 +0200
+
+    Update architecture and responsabilities
+
+[33mcommit 65baf51a7c0b2543f42ba3df0c92873acb1b5339[m
+Author: Adrien de Peretti <adrien.deperetti@gmail.com>
+Date:   Mon Oct 2 11:03:11 2017 +0200
+
+    empty
+
+[33mcommit 137604d9563c30c9d8b168c60b1454667c4fd077[m
+Author: Adrien de Peretti <adrien.deperetti@gmail.com>
+Date:   Sun Oct 1 20:59:59 2017 +0200
+
+    Improve architecture from the point of view of how entity are located and database are manage
+
+[33mcommit 53c566bb59682487d6a0030d15e41082124bcbf2[m
+Author: Adrien de Peretti <adrien.deperetti@gmail.com>
+Date:   Sat Sep 30 18:27:21 2017 +0200
+
+    update readme
+
+[33mcommit b0251617504218010961ea995cdf8df3345352ea[m
+Author: Adrien de Peretti <adrien.deperetti@gmail.com>
+Date:   Sat Sep 30 18:25:34 2017 +0200
+
+    update readme
+
+[33mcommit eb818b56166a58feb69df5f551b7ea67e2f217a0[m
+Author: Adrien de Peretti <adrien.deperetti@gmail.com>
+Date:   Sat Sep 30 18:24:50 2017 +0200
+
+    update readme
+
+[33mcommit f8994d0ec64cee207b20c46d5008ddce74b2e33c[m
+Author: Adrien de Peretti <adrien.deperetti@gmail.com>
+Date:   Sat Sep 30 18:17:26 2017 +0200
+
+    update packages + small improvements
+
+[33mcommit c8a8f23125864c96ebe3b62d8e2a545388b661bc[m
+Author: Adrien de Peretti <adrien.deperetti.freelance@gmail.com>
+Date:   Fri Sep 29 15:08:19 2017 +0200
+
+    fix migration file
+
+[33mcommit d7993445d02d92a381e7be7f1f547b09dee4eb3f[m
+Author: Adrien de Peretti <adrien.deperetti.freelance@gmail.com>
+Date:   Fri Sep 29 15:07:46 2017 +0200
+
+    Fix migrate
+
+[33mcommit b983f6496c8dafe85226f49851924bca3a292f98[m
+Author: Adrien de Peretti <adrien.deperetti@dougs.fr>
+Date:   Sun Sep 24 17:58:12 2017 +0200
+
+    remove log
+
+[33mcommit f1e363240b52e91db7e8ced4f4b467105ca28f1b[m
+Author: Adrien de Peretti <adrien.deperetti@dougs.fr>
+Date:   Sun Sep 24 17:38:35 2017 +0200
+
+    update package
+
+[33mcommit 03c380234bda7c1983745842668b928533c8127b[m
+Author: Adrien de Peretti <adrien.deperetti@dougs.fr>
+Date:   Sun Sep 24 17:34:25 2017 +0200
+
+    Update architecture of the project + migrate to sequelize-typescript
+
+[33mcommit c40a93cd02b7d36a3aaa70d11924d02c80e3c6eb[m
+Author: Adrien de Peretti <adrien.deperetti@dougs.fr>
+Date:   Wed Sep 13 19:31:38 2017 +0200
+
+    Update version
+
+[33mcommit 6529d69bff3e41d5738485974556de677907be29[m
+Author: Adrien de Peretti <adrien.deperetti@dougs.fr>
+Date:   Wed Sep 13 19:25:25 2017 +0200
+
+    Update package and upgrade code
+
+[33mcommit af64909da10602483f80d50b431df615b7841f0d[m
+Author: Adrien de Peretti <adrien.deperetti.freelance@gmail.com>
+Date:   Mon Aug 28 14:26:42 2017 +0000
+
+    Create LICENSE (#2)
+
+[33mcommit 6d113edc75c20d0c411428c729e41945bb77f71a[m
+Author: Adrien de Peretti <adrien.deperetti@dougs.fr>
+Date:   Fri Aug 18 22:49:48 2017 +0200
+
+    Update index in ./models to apply association and scopes if they are
+
+[33mcommit 3f2d868b5db69f2758b30cb3a47d82887e43d3d5[m
+Author: Adrien de Peretti <adrien.deperetti@dougs.fr>
+Date:   Fri Aug 18 11:57:56 2017 +0200
+
+    small update
+
+[33mcommit 56fadf96a887df627e1299cc54244add19f30b89[m
+Author: Adrien de Peretti <adrien.deperetti@dougs.fr>
+Date:   Tue Aug 15 23:13:27 2017 +0200
+
+    Update the readme
+
+[33mcommit 7bbaefd3f8d7d93e55f0f9391ad15809706b3ba7[m
+Author: Adrien de Peretti <adrien.deperetti@dougs.fr>
+Date:   Tue Aug 15 19:47:56 2017 +0200
+
+    Update description
+
+[33mcommit 0975257b167bdb9c1b482784acb6d28f43c81ce1[m
+Author: Adrien de Peretti <adrien.deperetti@dougs.fr>
+Date:   Tue Aug 15 19:45:25 2017 +0200
+
+    another move up
+
+[33mcommit 2cbbf4116d3857f5efacc280d011e235fb23321a[m
+Author: Adrien de Peretti <adrien.deperetti@dougs.fr>
+Date:   Tue Aug 15 19:44:38 2017 +0200
+
+    move up
+
+[33mcommit 740fee1088d55b1e68ba5687f3362c6ccde34fdd[m
+Author: Adrien de Peretti <adrien.deperetti@dougs.fr>
+Date:   Tue Aug 15 17:05:03 2017 +0200
+
+    Update command
+
+[33mcommit 8e904b03b45157c3fefd4bea6f9c43c74a81135a[m
+Author: Adrien de Peretti <adrien.deperetti@dougs.fr>
+Date:   Tue Aug 15 17:04:15 2017 +0200
+
+    Update version
+
+[33mcommit 4d0cdd4fe99638af4229e383eee4407cd9ff89c5[m
+Author: Adrien de Peretti <adrien.deperetti@dougs.fr>
+Date:   Tue Aug 15 17:03:44 2017 +0200
+
+    Auth service test file
+
+[33mcommit 741b8cc82737358dd0ed6090a04bcce50c3384e3[m
+Author: Adrien de Peretti <adrien.deperetti@dougs.fr>
+Date:   Tue Aug 15 17:02:50 2017 +0200
+
+    Finish authentication test, and come back too the previous archi more readable
+
+[33mcommit 6454fe489453fee8cc19ebd4734d81ce983498a1[m
+Author: Adrien de Peretti <adrien.deperetti@dougs.fr>
+Date:   Tue Aug 15 16:27:25 2017 +0200
+
+    update compil
+
+[33mcommit 4a6fc4a2c867a0daa4fdcf25a6900ad08c760951[m
+Author: Adrien de Peretti <adrien.deperetti@dougs.fr>
+Date:   Tue Aug 15 11:18:58 2017 +0200
+
+    Update readme
+
+[33mcommit 43b7627e0201f58c1a78566594d326e984b687ab[m
+Author: Adrien de Peretti <adrien.deperetti@dougs.fr>
+Date:   Tue Aug 15 11:16:18 2017 +0200
+
+    lint
+
+[33mcommit f82526d0be04c33a85fd42f160df6874a489ec9d[m
+Author: Adrien de Peretti <adrien.deperetti@dougs.fr>
+Date:   Mon Aug 14 23:19:56 2017 +0200
+
+    Small update
+
+[33mcommit ef2f6b5f097d03ce1092a80305e7dd8b0d39ac88[m
+Author: Adrien de Peretti <adrien.deperetti@dougs.fr>
+Date:   Mon Aug 14 23:19:13 2017 +0200
+
+    first test
+
+[33mcommit 478bc131fe250603ae28eb7fd3a484ef7ba77269[m
+Author: Adrien de Peretti <adrien.deperetti@dougs.fr>
+Date:   Mon Aug 14 22:45:51 2017 +0200
+
+    gitignore and tsconfig
+
+[33mcommit a3eae86f0320a5c9f75459524a4e45f5db401d2e[m
+Author: Adrien de Peretti <adrien.deperetti@dougs.fr>
+Date:   Mon Aug 14 22:43:12 2017 +0200
+
+    Small update
+
+[33mcommit 1f1583099d917013589511c6253ed9d2e6348d33[m
+Author: Adrien de Peretti <adrien.deperetti@dougs.fr>
+Date:   Mon Aug 14 22:35:58 2017 +0200
+
+    Update gitignore
+
+[33mcommit c5a87e2d6b92506919c64f64dfc38b50311811b7[m
+Author: Adrien de Peretti <adrien.deperetti@dougs.fr>
+Date:   Mon Aug 14 22:34:35 2017 +0200
+
+    Some reorganization in files and starting to setup test environement
+
+[33mcommit 93e2ac4d10978cc416a2e9ca6994bc930aff7424[m
+Author: Adrien de Peretti <adrien.deperetti@dougs.fr>
+Date:   Mon Aug 14 10:52:13 2017 +0200
+
+    Update readmeé
+
+[33mcommit 90589157192d6e801a76adf0ee2de2be9969b7ac[m
+Author: Adrien de Peretti <adrien.deperetti@dougs.fr>
+Date:   Mon Aug 14 10:48:21 2017 +0200
+
+    Update package
+
+[33mcommit e5fa11f5410d6368e38b8ef782a0497ddd952f82[m
+Author: Adrien de Peretti <adrien.deperetti@dougs.fr>
+Date:   Mon Aug 14 10:46:32 2017 +0200
+
+    Update package.json and .env.demo
+
+[33mcommit 79ea7ae73c0e209ceb28b1720727b50a648b0de8[m
+Author: Adrien de Peretti <adrien.deperetti@dougs.fr>
+Date:   Sun Aug 13 23:06:53 2017 +0200
+
+    Update readme
+
+[33mcommit 5cfbc43bafbd502c0017c4d7e959a007b1664ac3[m
+Author: Adrien de Peretti <adrien.deperetti@dougs.fr>
+Date:   Sun Aug 13 23:05:36 2017 +0200
+
+    Some update and improvement
+
+[33mcommit c2826db2c14c27235bb16f60e1e2301cde968937[m
+Author: Adrien de Peretti <adrien.deperetti@dougs.fr>
+Date:   Sun Aug 13 22:25:50 2017 +0200
+
+    Improve authentication error
+
+[33mcommit f1acf2af7d4ed68044c3a92278e7d425380bf14c[m
+Author: Adrien de Peretti <adrien.deperetti@dougs.fr>
+Date:   Sun Aug 13 22:18:11 2017 +0200
+
+    Add some authentication feature
+
+[33mcommit c819ddebf32d53bec11fe582009328bf6b1c5f05[m
+Author: Adrien de Peretti <adrien.deperetti@dougs.fr>
+Date:   Sun Aug 13 22:17:01 2017 +0200
+
+    Add some check of transaction
+
+[33mcommit cf31e8f0e119ddfdabd69f914313cb59a50e30f1[m
+Author: Adrien de Peretti <adrien.deperetti@dougs.fr>
+Date:   Sun Aug 13 21:07:59 2017 +0200
+
+    some reorganization
+
+[33mcommit 6dcb96761cacc50c7d55b0ad581533e9b33cccb0[m
+Author: Adrien de Peretti <adrien.deperetti@dougs.fr>
+Date:   Sun Aug 13 13:21:03 2017 +0200
+
+    Small update
+
+[33mcommit ad0f089512dc0c83b08e08926f266a19cb8ba15a[m
+Author: Adrien de Peretti <adrien.deperetti@dougs.fr>
+Date:   Sun Aug 13 12:29:48 2017 +0200
+
+    NEST + sequelize + umzug for migration
