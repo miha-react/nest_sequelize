@@ -21,7 +21,9 @@
     "src/modules/common/middlewares/**/*.ts",
     "src/modules/common/migrations/**/*.ts",
     "src/modules/common/models/**/*.ts",
+    "src/modules/*.ts",
     "src/modules/**/*.ts",
+    "src/modules/auth/*.ts",
     "tests/**/*.ts"
   ],
   "exclude": [

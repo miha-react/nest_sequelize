@@ -10,16 +10,20 @@ import { User } from '../../users/user.entity';
 export class AuthMiddleware implements NestMiddleware {
     public resolve() {
         return async (req: Request, res: Response, next: NextFunction) => {
-            if (req.headers.authorization && (req.headers.authorization as string).split(' ')[0] === 'Bearer') {
+            if (req.headers.authorization &&
+                (req.headers.authorization as string).split(' ')[0] === 'Bearer') {
                 const token = (req.headers.authorization as string).split(' ')[1];
-                const decoded: any = jwt.verify(token, process.env.JWT_KEY || '');
+                console.log('-BEARER', token);
+                const decoded: any = jwt.verify(token, process.env.JWT_KEY || 'abc');
                 const user = await User.findOne<User>({
                     where: {
                         id: decoded.id,
                         email: decoded.email,
                     },
                 });
-                if (!user) throw new MessageCodeError('request:unauthorized');
+                if (!user){
+                    throw new MessageCodeError('request:unauthorized');
+                }
                 next();
             } else {
                 throw new MessageCodeError('request:unauthorized');
