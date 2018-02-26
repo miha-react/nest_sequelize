@@ -11,12 +11,21 @@ export class HommyController {
             return res.status(HttpStatus.OK).json(hommies);
         }
 
-        @Post('hommies')
+        @Post('hommy')
         public async create(@Request() req, @Response() res){
             const body = req.body;
             if (!body || (body && Object.keys(body).length === 0)) throw new Error('No Data');
 
             await this.hommiesService.create(req.body);
             return res.status(HttpStatus.CREATED).send();
+        }
+
+        @Get('hommy/:id')
+        public async show(@Request() req, @Response() res){
+            const id = req.params.id;
+            if (!id) throw new Error('No such hommy');
+
+            const hommy = await this.hommiesService.findById(id);
+            return res.status(HttpStatus.OK).json(hommy);
         }
 }

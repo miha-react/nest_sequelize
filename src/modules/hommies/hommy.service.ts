@@ -17,9 +17,13 @@ export class HommyService implements IHommyService{
             return await this.hommiesRepository.findOne<Hommy>(options);
         }
 
+        public async findById(id: number): Promise<Hommy | null> {
+            return await this.hommiesRepository.findById<Hommy>(id);
+    }
+
         public async create(hommy: IHommy): Promise<Hommy>{
             return await this.sequelizeInstance.transaction(async transaction => {
-                return await this.hommiesRepository.create<Hommy>(hommy,{
+                return await this.hommiesRepository.create<Hommy>(hommy, {
                     returning: true,
                     transaction,
                 });
